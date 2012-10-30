@@ -13,6 +13,9 @@
 		541B02491640447900AFD920 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 541B02471640447900AFD920 /* InfoPlist.strings */; };
 		541B024B1640447900AFD920 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B024A1640447900AFD920 /* main.m */; };
 		541B024F1640447900AFD920 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B024E1640447900AFD920 /* AppDelegate.m */; };
+		541B0257164044A700AFD920 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B0256164044A700AFD920 /* Line.m */; };
+		541B025A1640450100AFD920 /* TouchDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B02591640450100AFD920 /* TouchDrawView.m */; };
+		541B025D1640454500AFD920 /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B025C1640454500AFD920 /* TouchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		541B023E1640447900AFD920 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		541B02401640447900AFD920 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		541B02421640447900AFD920 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		541B02461640447900AFD920 /* TouchTracker-Info.plist */ = {isa = PBXFileReference; path = "TouchTracker-Info.plist"; sourceTree = "<group>"; };
+		541B02461640447900AFD920 /* TouchTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchTracker-Info.plist"; sourceTree = "<group>"; };
 		541B02481640447900AFD920 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		541B024A1640447900AFD920 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		541B024C1640447900AFD920 /* TouchTracker-Prefix.pch */ = {isa = PBXFileReference; path = "TouchTracker-Prefix.pch"; sourceTree = "<group>"; };
-		541B024D1640447900AFD920 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		541B024C1640447900AFD920 /* TouchTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchTracker-Prefix.pch"; sourceTree = "<group>"; };
+		541B024D1640447900AFD920 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		541B024E1640447900AFD920 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		541B0255164044A700AFD920 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Line.h; path = ../Line.h; sourceTree = "<group>"; };
+		541B0256164044A700AFD920 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Line.m; path = ../Line.m; sourceTree = "<group>"; };
+		541B02581640450100AFD920 /* TouchDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchDrawView.h; sourceTree = "<group>"; };
+		541B02591640450100AFD920 /* TouchDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchDrawView.m; sourceTree = "<group>"; };
+		541B025B1640454500AFD920 /* TouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
+		541B025C1640454500AFD920 /* TouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +81,12 @@
 		541B02441640447900AFD920 /* TouchTracker */ = {
 			isa = PBXGroup;
 			children = (
+				541B0255164044A700AFD920 /* Line.h */,
+				541B02581640450100AFD920 /* TouchDrawView.h */,
+				541B02591640450100AFD920 /* TouchDrawView.m */,
+				541B025B1640454500AFD920 /* TouchViewController.h */,
+				541B025C1640454500AFD920 /* TouchViewController.m */,
+				541B0256164044A700AFD920 /* Line.m */,
 				541B024D1640447900AFD920 /* AppDelegate.h */,
 				541B024E1640447900AFD920 /* AppDelegate.m */,
 				541B02451640447900AFD920 /* Supporting Files */,
@@ -154,6 +169,9 @@
 			files = (
 				541B024B1640447900AFD920 /* main.m in Sources */,
 				541B024F1640447900AFD920 /* AppDelegate.m in Sources */,
+				541B0257164044A700AFD920 /* Line.m in Sources */,
+				541B025A1640450100AFD920 /* TouchDrawView.m in Sources */,
+				541B025D1640454500AFD920 /* TouchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

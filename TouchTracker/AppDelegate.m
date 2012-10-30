@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "TouchViewController.h"
+
 
 @implementation AppDelegate
 
@@ -16,6 +18,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    TouchViewController *tvc = [[TouchViewController alloc] init];
+    [[self window] setRootViewController:tvc];
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
